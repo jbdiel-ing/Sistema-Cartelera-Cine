@@ -6,7 +6,7 @@ namespace Sistema_Cartelera_Cine
     public class FuncionRepositorio
     {
         private const string conexion =
-            @"Server=(localdb)\MSSQLLocalDB;Database=CarteleraDB;Integrated Security=True;TrustServerCertificate=True;";
+            @"Server=(localdb)\CineLocalDB;Database=CarteleraDB;Integrated Security=True;TrustServerCertificate=True;";
 
         public void Insertar(Funcion x)
         {
